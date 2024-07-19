@@ -8,14 +8,14 @@ body {
   border: 3px solid blue;
   /* CHANGE ME */
   padding: 0px;
-  margin: 0px;
+  margin: 12px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -24,5 +24,11 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 0px;
-  margin-left: 0px;
+  margin-left: 300px;
+}
+
+/* Add a combined rule for padding, move below to apply it on top of existing rules */
+.one,
+.three {
+  padding: 32px;
 }
